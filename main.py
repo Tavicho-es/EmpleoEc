@@ -29,7 +29,7 @@ print("holamundo")
 # =========================================================
 # CREAR TABLAS
 # =========================================================
-
+print("holamundo")
 models.Base.metadata.create_all(bind=engine)
 # =========================================================
 # CARPETA PARA GUARDAR CV
