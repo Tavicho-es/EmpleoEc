@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Registrarse | EmpleaEC</title>
+
+    <link rel="stylesheet" href="auth.css">
+
+</head>
+
+<body>
+
+<div class="auth-container">
+
+    <div class="auth-card">
+
+        <div class="auth-logo">
+            <span>Emplea</span>EC
+        </div>
+
+        <h2>Crear cuenta</h2>
+
+        <p class="auth-description">
+            Únete a EmpleaEC
+        </p>
+
+        <form id="registroForm" class="auth-form">
+
+            <label for="nombre">
+                Nombre completo
+            </label>
+
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Steven Tandazo"
+                required
+            >
+
+            <label for="email">
+                Correo electrónico
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="tu@email.com"
+                required
+            >
+
+            <label for="password">
+                Contraseña
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Crea una contraseña"
+                required
+            >
+
+            <label for="tipo_usuario">
+                Tipo de cuenta
+            </label>
+
+            <select id="tipo_usuario" required>
+
+                <option value="">
+                    Selecciona una opción
+                </option>
+
+                <option value="candidato">
+                    👤 Busco empleo
+                </option>
+
+                <option value="empresa">
+                    🏢 Soy una empresa
+                </option>
+
+            </select>
+
+            <button
+                type="submit"
+                class="auth-button">
+                Crear cuenta
+            </button>
+
+        </form>
+
+        <div
+            id="mensaje"
+            class="auth-message">
+        </div>
+
+        <p class="auth-link">
+
+            ¿Ya tienes una cuenta?
+
+            <a href="login.html">
+                Iniciar sesión
+            </a>
+
+        </p>
+
+        <a
+            href="index.html"
+            class="back-home">
+            ← Volver al inicio
+        </a>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
