@@ -25,11 +25,11 @@ from security import (
     crear_token_acceso,
     verificar_token
 )
-print("holamundo")
+
 # =========================================================
 # CREAR TABLAS
 # =========================================================
-print("holamundo")
+
 models.Base.metadata.create_all(bind=engine)
 # =========================================================
 # CARPETA PARA GUARDAR CV
